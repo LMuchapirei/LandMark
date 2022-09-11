@@ -48,7 +48,6 @@
 				A2236E6128CE41A4007DA9A8 /* Resources */,
 				A2236E6028CE4189007DA9A8 /* Model */,
 				A2236E5F28CE415F007DA9A8 /* Views */,
-				A2236E5D28CE4016007DA9A8 /* ModelData.swift */,
 				A2236E4628CE2F2A007DA9A8 /* LandMark */,
 				A2236E4528CE2F2A007DA9A8 /* Products */,
 			);
@@ -65,6 +64,7 @@
 		A2236E4628CE2F2A007DA9A8 /* LandMark */ = {
 			isa = PBXGroup;
 			children = (
+				A2236E4728CE2F2A007DA9A8 /* LandMarkApp.swift */,
 				A2236E4B28CE2F2A007DA9A8 /* Assets.xcassets */,
 				A2236E4D28CE2F2A007DA9A8 /* Preview Content */,
 			);
@@ -92,8 +92,8 @@
 		A2236E6028CE4189007DA9A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A2236E5D28CE4016007DA9A8 /* ModelData.swift */,
 				A2236E5B28CE3E8F007DA9A8 /* Landmark.swift */,
-				A2236E4728CE2F2A007DA9A8 /* LandMarkApp.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
