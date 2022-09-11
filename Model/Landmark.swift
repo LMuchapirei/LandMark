@@ -9,7 +9,8 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmrk:Hashable,Codable {
+// Identifiable protocol allow us not to add the id when we generate the List
+struct Landmark:Hashable,Codable,Identifiable {
     var id: Int
     var name: String
     var park: String
