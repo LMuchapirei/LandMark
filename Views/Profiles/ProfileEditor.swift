@@ -21,6 +21,7 @@ struct ProfileEditor: View {
                 Text("Username").bold()
                 Divider()
                 TextField("Username",text: $profile.username)
+                    
             }
             Toggle(isOn: $profile.prefersNotifications){
                 Text("Enable Notifications").bold()
