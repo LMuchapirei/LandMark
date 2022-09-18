@@ -38,6 +38,7 @@
 		A26560EE28D711FB0095F74A /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560ED28D711FB0095F74A /* ProfileHost.swift */; };
 		A26560F028D7127A0095F74A /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560EF28D7127A0095F74A /* ProfileSummary.swift */; };
 		A26560F228D715470095F74A /* HikeBage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F128D715470095F74A /* HikeBage.swift */; };
+		A26560F428D71C2C0095F74A /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F328D71C2C0095F74A /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		A26560ED28D711FB0095F74A /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		A26560EF28D7127A0095F74A /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		A26560F128D715470095F74A /* HikeBage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBage.swift; sourceTree = "<group>"; };
+		A26560F328D71C2C0095F74A /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				A26560ED28D711FB0095F74A /* ProfileHost.swift */,
 				A26560EF28D7127A0095F74A /* ProfileSummary.swift */,
+				A26560F328D71C2C0095F74A /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				A26560EE28D711FB0095F74A /* ProfileHost.swift in Sources */,
 				A2236E7328CFBE37007DA9A8 /* RotatedBadgeSymbol.swift in Sources */,
 				A2236E6528CE4F22007DA9A8 /* LandmarkList.swift in Sources */,
+				A26560F428D71C2C0095F74A /* ProfileEditor.swift in Sources */,
 				A2236E7528CFBE94007DA9A8 /* BadgeSymbol.swift in Sources */,
 				A2236E6728CE5340007DA9A8 /* LandmarkDetail.swift in Sources */,
 				A2236E6F28CE6C36007DA9A8 /* BadgeBackground.swift in Sources */,
