@@ -5,6 +5,7 @@ Abstract:
 A view displaying information about a hike, including an elevation graph.
 */
 
+// Animating Views and Transition Section
 import SwiftUI
 
 extension AnyTransition {
