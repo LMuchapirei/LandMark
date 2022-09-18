@@ -41,6 +41,7 @@
 		A26560F428D71C2C0095F74A /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F328D71C2C0095F74A /* ProfileEditor.swift */; };
 		A26560F728D75F7E0095F74A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F628D75F7E0095F74A /* PageViewController.swift */; };
 		A26560F928D762D10095F74A /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F828D762D10095F74A /* FeatureCard.swift */; };
+		A26560FB28D766830095F74A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560FA28D766830095F74A /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		A26560F328D71C2C0095F74A /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		A26560F628D75F7E0095F74A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A26560F828D762D10095F74A /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		A26560FA28D766830095F74A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				A26560F628D75F7E0095F74A /* PageViewController.swift */,
+				A26560FA28D766830095F74A /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				A2236E7C28CFC7CC007DA9A8 /* Hike.swift in Sources */,
 				A26560EE28D711FB0095F74A /* ProfileHost.swift in Sources */,
 				A2236E7328CFBE37007DA9A8 /* RotatedBadgeSymbol.swift in Sources */,
+				A26560FB28D766830095F74A /* PageView.swift in Sources */,
 				A2236E6528CE4F22007DA9A8 /* LandmarkList.swift in Sources */,
 				A26560F428D71C2C0095F74A /* ProfileEditor.swift in Sources */,
 				A2236E7528CFBE94007DA9A8 /* BadgeSymbol.swift in Sources */,
