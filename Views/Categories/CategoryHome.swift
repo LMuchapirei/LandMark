@@ -9,8 +9,9 @@ import SwiftUI
 
 struct CategoryHome: View {
     // A property wrapper type for an observable object supplied by a parent or ancestor view.
-
     @EnvironmentObject var modelData: ModelData
+    @State private var showingProfile = false
+    
     var body: some View {
         NavigationView {
             // Use navigation view along with NavigationLink instances and related stiff to build navigation functionality
@@ -26,8 +27,20 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets()) // Ensures the image fit into the space without an spacing between them and containers
             }
+            .listStyle(.inset)
             // modifier to set the title of our navigation
                 .navigationTitle("Featured")
+                .toolbar {
+                    Button {
+                        showingProfile.toggle()
+                    } label: {
+                        Label("User Profile",systemImage: "person.crop.circle")
+                    }
+                }
+                .sheet(isPresented: $showingProfile){
+                    ProfileHost()
+                        .environmentObject(modelData)
+                }
         }
     }
 }
