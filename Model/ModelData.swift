@@ -17,6 +17,7 @@ final class ModelData:ObservableObject {
             grouping: landmarks, by: {$0.category.rawValue}
         )
     }
+    @Published var profile = Profile.default
     var features: [Landmark]{
         landmarks.filter {
             $0.isFeatured
