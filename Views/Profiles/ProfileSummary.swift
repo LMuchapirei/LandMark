@@ -19,6 +19,23 @@ struct ProfileSummary: View {
                 Text("Notifications: \(profile.prefersNotifications ?   "On":"Off")")
                 Text("Seasonal Photos: \(profile.seasonalPhoto.rawValue)")
                 Text("Goal Date: ") + Text(profile.goalDate,style: .date) // Something new here Concatening two Text Views
+                Divider()
+                
+                VStack(alignment: .leading){
+                    Text("Completed Badges")
+                        .font(.headline)
+                    ScrollView(.horizontal){
+                        HStack {
+                            HikeBage(name:"First Hike")
+                            HikeBage(name:"Earth Day")
+                                .hueRotation(Angle(degrees: 90))
+                            HikeBage(name: "Tenth Hike")
+                                .grayscale(0.5)
+                                .hueRotation(Angle(degrees: 45))
+                        }
+                        .padding(.bottom)
+                    }
+                }
             }
         }
     }
