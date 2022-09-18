@@ -13,6 +13,7 @@ struct LandMarkApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
 //            CircleImage()
         }
     }
