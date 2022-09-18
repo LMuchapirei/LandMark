@@ -37,6 +37,7 @@
 		A26560EB28D710B90095F74A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560EA28D710B90095F74A /* Profile.swift */; };
 		A26560EE28D711FB0095F74A /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560ED28D711FB0095F74A /* ProfileHost.swift */; };
 		A26560F028D7127A0095F74A /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560EF28D7127A0095F74A /* ProfileSummary.swift */; };
+		A26560F228D715470095F74A /* HikeBage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F128D715470095F74A /* HikeBage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		A26560EA28D710B90095F74A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A26560ED28D711FB0095F74A /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		A26560EF28D7127A0095F74A /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		A26560F128D715470095F74A /* HikeBage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				A26560DD28CFCC9F0095F74A /* GraphCapsule.swift */,
 				A26560DE28CFCC9F0095F74A /* HikeDetail.swift */,
 				A26560DC28CFCC9F0095F74A /* HikeGraph.swift */,
+				A26560F128D715470095F74A /* HikeBage.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				A2236E6928CE65E9007DA9A8 /* FavoriteButton.swift in Sources */,
 				A26560DB28CFCC8E0095F74A /* HikeView.swift in Sources */,
 				A26560E928D705850095F74A /* CategoryItem.swift in Sources */,
+				A26560F228D715470095F74A /* HikeBage.swift in Sources */,
 				A2236E6D28CE6AEA007DA9A8 /* HexagonParameters.swift in Sources */,
 				A26560F028D7127A0095F74A /* ProfileSummary.swift in Sources */,
 				A2236E7C28CFC7CC007DA9A8 /* Hike.swift in Sources */,
