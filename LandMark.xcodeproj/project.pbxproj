@@ -42,6 +42,7 @@
 		A26560F728D75F7E0095F74A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F628D75F7E0095F74A /* PageViewController.swift */; };
 		A26560F928D762D10095F74A /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560F828D762D10095F74A /* FeatureCard.swift */; };
 		A26560FB28D766830095F74A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560FA28D766830095F74A /* PageView.swift */; };
+		A26560FD28E09A5D0095F74A /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26560FC28E09A5D0095F74A /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		A26560F628D75F7E0095F74A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A26560F828D762D10095F74A /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		A26560FA28D766830095F74A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		A26560FC28E09A5D0095F74A /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			children = (
 				A26560F628D75F7E0095F74A /* PageViewController.swift */,
 				A26560FA28D766830095F74A /* PageView.swift */,
+				A26560FC28E09A5D0095F74A /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				A2236E5C28CE3E8F007DA9A8 /* Landmark.swift in Sources */,
 				A2236E5828CE347F007DA9A8 /* MapView.swift in Sources */,
 				A2236E6928CE65E9007DA9A8 /* FavoriteButton.swift in Sources */,
+				A26560FD28E09A5D0095F74A /* PageControl.swift in Sources */,
 				A26560DB28CFCC8E0095F74A /* HikeView.swift in Sources */,
 				A26560E928D705850095F74A /* CategoryItem.swift in Sources */,
 				A26560F228D715470095F74A /* HikeBage.swift in Sources */,
