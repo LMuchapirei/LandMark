@@ -16,12 +16,16 @@ struct CategoryHome: View {
         NavigationView {
             // Use navigation view along with NavigationLink instances and related stiff to build navigation functionality
             List {
-                modelData.features[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height:200)
-                    .clipped()
-                    .listRowInsets(EdgeInsets()) // Ensures the image fit to the edges
+                PageView(pages: modelData.features.map{
+                    FeatureCard(landmark: $0)})
+                .aspectRatio(3 / 2,contentMode: .fit)
+                .listRowInsets(EdgeInsets())
+//                modelData.features[0].image
+//                    .resizable()
+//                    .scaledToFill()
+//                    .frame(height:200)
+//                    .clipped()
+//                    .listRowInsets(EdgeInsets()) // Ensures the image fit to the edges
                 ForEach(modelData.categories.keys.sorted( ),id:\.self){ key in 
                     CategoryRow(categoryName: key, items: modelData.categories[key]!)
                 }
